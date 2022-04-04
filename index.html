@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="styke.css" />
+    <script src="script.js" defer></script>
+    <script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
+  </head>
+  <body>
+    <form class="form">
+      <label for="tot">Total number of samples</label>
+      <input id="tot" type="number" value="1000" />
+      <label for="min">From (inclusive)</label>
+      <input id="min" type="number" value="1" />
+      <label for="max">To (inclusive)</label>
+      <input id="max" type="number" value="100" />
+      <div class="btn" id="btn">Generate</div>
+    </form>
+    <div>
+      <p></p>
+    </div>
+    <div class="result" id="result">0</div>
+    <div class="total" id="total">Total Samples: 0</div>
+    <div id="myChart"></div>
+  </body>
+</html>

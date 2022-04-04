@@ -1,0 +1,32 @@
+.btn {
+  border: 2px solid blue;
+  width: max-content;
+  padding: 0.25rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background: #1c2dc6;
+}
+
+.result {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.total {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  width: max-content;
+  margin: 0.5rem;
+}
